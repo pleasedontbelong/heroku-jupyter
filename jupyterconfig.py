@@ -6,8 +6,7 @@ import pgcontents
 c = get_config()
 
 ### Password protection ###
-c.NotebookApp.password = IPython.lib.passwd(
-    os.getenv('JUPYTER_NOTEBOOK_PASSWORD', default=str(uuid.uuid4())))
+c.NotebookApp.password = "Csulb19*"
 
 ### PostresContentsManager ###
 database_url = os.getenv('DATABASE_URL', None)
