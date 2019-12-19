@@ -6,7 +6,7 @@ import pgcontents
 c = get_config()
 
 ### Password protection ###
-c.NotebookApp.password = "Csulb19*"
+c.NotebookApp.password = "sha1:1761d867e32f:7d74b6ec6860923bab30dcab0b3abf78e6de4d52"
 
 ### PostresContentsManager ###
 database_url = os.getenv('DATABASE_URL', None)
